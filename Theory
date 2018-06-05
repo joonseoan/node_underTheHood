@@ -1,0 +1,11 @@
+1. Window CMD
+
+1) node -v
+ - "node" is a big object with functions
+ - "-v" is an argument
+
+ 2) node (enter)
+ - node executes!!! with prompt ">"
+ - Then, node reads javascript, then delivers it to embedded V8 engine in the node, then the node responses to the javascript.
+
+ 
