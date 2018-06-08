@@ -1,0 +1,14 @@
+libuv to control system and O/S. It a node core composed by C++.
+It has an event loop. Keep searching the event from V8 engine.
+Then, makes a que to control thhose events. The event que lines up 
+    in order when it occurs.
+Actually, V8 engine runs in synchronous but it has asynchronous functions
+that are events to be sent "libuv" liblary. In other words, the main reason
+V8 engine is able to define asynchronous functins is because the core libuv exists
+to manage the asynchronous function in the background.
+
+Non blocking running : V8 engine is composed of non-blocking codes that execute
+synchronously. The asynchronous events are not interupt the execution.
+
+Buffer: holding the data in some part of memory before the data reaches to 
+the designated destination.
